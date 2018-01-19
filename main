@@ -1,0 +1,7 @@
+require_relative 'complex.rb'
+
+a = ComplexNumber.new(1,1)
+b = ComplexNumber.new(2, 2)
+c = a + b
+
+puts c.to_s
